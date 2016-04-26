@@ -1,6 +1,7 @@
 "
 " My .vimrc
 "
+" $Id$
 
 " Forget being compatible with good ol' vi
 set nocompatible
