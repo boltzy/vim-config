@@ -6,6 +6,20 @@
 " Forget being compatible with good ol' vi
 set nocompatible
 
+" Vundle 
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'taglist.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 " Get that filetype stuff happening
 filetype on
 filetype plugin on
