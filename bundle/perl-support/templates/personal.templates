@@ -1,0 +1,24 @@
+§ =============================================================
+§  Personal Information
+§ =============================================================
+
+SetMacro( 'AUTHOR',       'Mark Bolton' )
+SetMacro( 'AUTHORREF',    'MEB' )
+SetMacro( 'EMAIL',        'mark.bolton@pirum.com' )
+SetMacro( 'ORGANIZATION', '' )
+SetMacro( 'COMPANY',      'Pirum Systems Limited' )
+SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR| |COMPANY|, All rights reserved.' )
+SetMacro( 'LICENSE',      '|COMPANY|' )
+
+§ =============================================================
+§  Date and Time Format
+§ =============================================================
+
+§SetFormat( 'DATE', '%x' )
+§SetFormat( 'TIME', '%H:%M' )
+§SetFormat( 'YEAR', '%Y' )
+
+§ used by the template "Comments.file description pl":
+SetMacro( 'PERL_INTERPRETER', '/usr/local/bin/perl' )
+
+IncludeFile( 'comments.templates' )
